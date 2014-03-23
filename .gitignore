@@ -11,4 +11,4 @@
 /build/
 
 #os
-*.DS_Store
+/*.DS_Store
