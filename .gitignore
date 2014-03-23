@@ -9,3 +9,6 @@
 
 #generated
 /build/
+
+#os
+*.DS_Store
