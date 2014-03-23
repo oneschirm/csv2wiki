@@ -25,10 +25,10 @@ the script will produce a string that can printed, redirected, etc.
 <pre>
 from csv2wiki import csv2wiki
 wiki_table = csv2wiki.convert_csv_table('test2.csv', False)
-wiki_table.get_file('test2_wiki_output.csv')
+wiki_table.get_file('test2_wiki_output.txt')
 </pre>
 
-the script will output the content to a file named `test2_wiki_output.csv`
+the script will output the content to a file named `test2_wiki_output.txt`
 
 #notes
 
