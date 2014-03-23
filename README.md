@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #csv2wiki : about
 
 csv2wiki converts CSV files to mediawiki-formatted tables. 
@@ -35,3 +36,9 @@ the script will output the content to a file named `test2_wiki_output.csv`
 this module outputs the mediawiki table enhanced with `class="wikitable sortable"`
 
 you can contact me on github or at oneschirm@gmail.com
+=======
+csv2wiki
+========
+
+csv2wiki converts CSV files to mediawiki tables
+>>>>>>> c275c09170ce7141f7bf4c7f0c5e879f7bb8e5fc
