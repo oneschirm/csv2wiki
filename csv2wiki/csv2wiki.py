@@ -33,14 +33,15 @@ class convert_csv_table(object):
 "\"":"&#8220;",
 "'":"&#39;"}
 
-        try:
-            if any(character in string for character in special_characters.keys()):
-                string = special_characters[string]
-            elif string == None:
-                string = ''
-            return string
-        except KeyError, e:
-            return string
+		character_list = []
+		
+		for character in string:
+			if character in special_characters.keys():
+				character_list.append(special_characters[character])
+			else:
+				character_list.append(character)
+				
+		return ''.join(character_list)
 
     #main method to create a mediawiki table from csv input
     def convert(self):
